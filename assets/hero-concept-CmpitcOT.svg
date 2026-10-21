@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="760" viewBox="0 0 720 760">
+  <title>Schematisches Taschen-Konzeptbild</title>
+  <desc>Im Projekt erstellte Vektorillustration ohne externe Bildquelle. Kein Produktfoto und keine verbindliche Ausfuehrungs- oder Farbvorschau.</desc>
+  <defs>
+    <linearGradient id="paper" x2="1" y2="1"><stop stop-color="#e7d9c8"/><stop offset="1" stop-color="#f5ece0"/></linearGradient>
+    <linearGradient id="yarn" x2="0" y2="1"><stop stop-color="#e6d3b9"/><stop offset="1" stop-color="#c5a888"/></linearGradient>
+    <pattern id="stitch" width="40" height="38" patternUnits="userSpaceOnUse">
+      <path d="M5 0C-4 15 13 35 20 24C27 13 31 4 35 0M25 20C17 34 31 47 40 36" fill="none" stroke="#f9edda" stroke-width="10" stroke-linecap="round"/>
+      <path d="M7 0C-1 14 14 32 20 24" fill="none" stroke="#997a5b" stroke-opacity=".28" stroke-width="2"/>
+    </pattern>
+    <clipPath id="body"><path d="M157 330Q360 302 563 330L589 535Q594 599 534 611Q360 641 186 611Q126 599 131 535Z"/></clipPath>
+  </defs>
+  <rect width="720" height="760" fill="url(#paper)"/>
+  <circle cx="624" cy="94" r="245" fill="#fffaf2" opacity=".32"/>
+  <path d="M0 610Q360 557 720 610V760H0Z" fill="#dfcebb" opacity=".52"/>
+  <ellipse cx="360" cy="637" rx="237" ry="22" fill="#806347" opacity=".13"/>
+  <path d="M225 347C203 120 517 120 495 347" fill="none" stroke="#bda080" stroke-width="43"/>
+  <path d="M225 347C203 120 517 120 495 347" fill="none" stroke="#eee0cb" stroke-width="29" stroke-dasharray="7 9"/>
+  <g clip-path="url(#body)">
+    <rect x="120" y="302" width="480" height="340" fill="url(#yarn)"/>
+    <rect x="120" y="302" width="480" height="340" fill="url(#stitch)"/>
+    <path d="M132 575Q360 652 588 575" fill="none" stroke="#967457" stroke-opacity=".16" stroke-width="31"/>
+  </g>
+  <path d="M157 330Q360 302 563 330" fill="none" stroke="#d6bd9e" stroke-width="16" stroke-linecap="round"/>
+  <g fill="none" stroke="#a78652" stroke-width="8"><ellipse cx="224" cy="343" rx="18" ry="26"/><ellipse cx="496" cy="343" rx="18" ry="26"/></g>
+  <rect x="338" y="438" width="44" height="31" rx="6" fill="#b7965b"/>
+  <path d="M348 460V448L360 457L372 448V460" fill="none" stroke="#fff6e2" stroke-width="2"/>
+</svg>
